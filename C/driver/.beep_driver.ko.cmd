@@ -1,0 +1,1 @@
+cmd_/home/wyg/linux/C/driver/beep_driver.ko := /home/wyg/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/wyg/linux/C/driver/beep_driver.ko /home/wyg/linux/C/driver/beep_driver.o /home/wyg/linux/C/driver/beep_driver.mod.o ;  true
